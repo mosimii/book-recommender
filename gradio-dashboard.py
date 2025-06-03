@@ -10,7 +10,7 @@ from langchain_chroma import Chroma
 
 import gradio as gr
 
-load_dotenv() # load environment variables
+load_dotenv() # load the environment variables
 
 # load book data and prepare image URLs
 books = pd.read_csv("books_with_emotions.csv")
